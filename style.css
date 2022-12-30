@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+a{
+    font-size: 1.5vw;
+    color: lightgray;
+    margin: 1vw;
+}
+    
+
+.navbar-list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1vw;
+    margin: 1vw;
+}
+
+.home{
+    
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    color: white;
+    border-bottom: 5px solid white;
+}
+.home1{
+    margin: 0vw 0vw 1vw 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.write{
+    line-height: 9vw;
+}
+
+.home1 h1{
+    margin: 5vw 0vw 2vw 6vw;
+    font-weight: bolder;
+    color: lightgray;
+    font-size: 11vw;
+    /* animation: fadeIn 2sec; */
+    -webkit-animation:fadein 3s;
+}
+@-webkit-keyframes fadein {
+    from {
+    opacity:0;
+    }
+    to {
+    opacity:1;
+    }
+}
+
+.home1 .pic{
+    position: absolute;
+    top: 24vw;
+    left: 58vw;
+}
+.home1 .pic img{
+    height: auto;
+    width: 38vw;
+}
+
+.down span{
+    content: "\2193";
+    font-size: 5vw;
+    margin-left: 50%;
+}
+
+.About-Us{
+    display: flex;
+    margin: 5vw 0vw 0vw 5vw;
+}
+
+.About-Us .image{
+    width: 200vw;
+    height: 40vw;
+    margin: 5vw 0vw 3vw 3vw;
+}
+
+.detail h1{
+    font-size: 5vw;
+    font-weight: 10vw;
+    margin: 6vw 2vw 1vw 3vw;
+}
+
+.detail p{
+    margin: 0vw 5vw 1vw 3vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vw;
+}
+
+.Know-Us h1{
+    font-size: 5vw;
+    font-weight: 10vw;
+    margin: 7vw 3vw 3vw 6vw;
+}
+
+.Know-Us .descrip{
+    margin: 4vw;
+    display: flex;
+    font-family: arial;
+    font-size: 1.8vw;
+    gap: 4vw;
+    overflow-x: scroll;
+}
+
+.Know-Us .descrip .first, .second, .third{
+    /* display: inline-block; */
+    border: 2px solid black;
+    height: 30vw;
+    width: 80vw;
+    padding: 3vw;
+    transition-duration: 0.3s;
+    /* overflow: auto; */
+}
+.first:hover{
+    background-color: #000;
+    color: #fff;
+}
+.second:hover{
+    background-color: #000;
+    color: #fff;
+}
+.third:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.Contact-Us{
+    background-color: #000;
+    color: #fff;
+    margin-top: 10vw;
+}
+
+.Contact-Us #end{
+    top: 10vw;
+    font-size: 5vw;
+    text-align: center;
+}
+
+.Contact-Us form{
+    margin: 4vw 5vw 0vw 25vw;
+}
+
+input[type=text], submit{
+    width: 70%;
+    margin: 1vw ;
+    border: 1px solid #ccc;
+    border-radius: 0.5vw;
+    box-sizing: border-box;
+    background-color: black; 
+    font-size: 3vw;
+    color:#fff;
+}
+
+input[type=submit]{
+    width: 20%;
+    background-color: #ccc;
+    color: black;
+    margin: 1vw 2vw 2vw 1.5vw;
+    border: none;
+    cursor: pointer;
+    font-size: 3vw;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <title>Sanjeet Kumar ModuleTest Frontend 1</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo" target="_blank">Business name</a>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#second">About Us</a></li>
+                <li><a href="#third">Our Services</a></li>
+                <li><a href="#fourth">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="home">
+        <div class="home1">
+            <div class="write">
+                <h1>BUSINESS</h1>
+                <h1>LANDING</h1>
+                <h1>PAGE</h1>
+            </div>
+            <div class="pic">
+                <img src="laptop.png" alt="laptop">
+            </div>
+        </div>
+        <div class="down">
+            <a href="#second"><span>&#8595;</span></a>
+        </div>
+    </div>
+    <div class="About-Us" id="second">
+        <div class="image">
+            <img src="https://i.pinimg.com/originals/b9/16/78/b9167800c18dce27ab42cf1735e095dd.jpg" alt="_abhh"
+                height="100%" width="100%">
+        </div>
+        <div class="detail">
+            <h1>ABOUT US</h1>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptas sapiente corporis labore. Labore
+                consequuntur suscipit debitis ullam enim ea praesentium voluptate ex qui temporibus quia dolor
+                voluptates magnam animi placeat aliquam autem, nihil at repellat. Dolorum, molestias nisi! Neque ipsa
+                molestiae nostrum veniam beatae corporis quos consequatur dolor officiis. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Tempore nihil atque quis, inventore ipsum reprehenderit autem ipsam
+                doloremque nulla rem praesentium quos facere similique veritatis rerum eum est? Perspiciatis rerum nam
+                esse unde modi, dolores et voluptatum ipsam praesentium, doloribus veritatis excepturi incidunt nulla
+                aspernatur quasi asperiores quas sequi reiciendis?</p>
+        </div>
+    </div>
+    <div class="Know-Us" id="third">
+        <h1>OUR SERVICES</h1>
+        <div class="descrip">
+            <div class="first">
+                <h2>Service 1</h2>
+                <br>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, esse voluptate asperiores, assumenda
+                    in non voluptatum quod magni repudiandae nihil impedit deleniti consequuntur, recusandae corrupti
+                    numquam doloribus suscipit quas aspernatur?
+                </p>
+            </div>
+            <div class="second">
+                <h2>Service 2</h2>
+                <br>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, esse voluptate asperiores, assumenda
+                    in non voluptatum quod magni repudiandae nihil impedit deleniti consequuntur, recusandae corrupti
+                    numquam doloribus suscipit quas aspernatur?
+                </p>
+            </div>
+            <div class="third">
+                <h2>Service 3</h2>
+                <br>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, esse voluptate asperiores, assumenda
+                    in non voluptatum quod magni repudiandae nihil impedit deleniti consequuntur, recusandae corrupti
+                    numquam doloribus suscipit quas aspernatur?
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="Contact-Us" id="fourth">
+        <br><br>
+        <h1 id="end">CONTACT US</h1>
+        <form>
+            
+            <input type="text" required placeholder="First Name"><br>
+            <br>
+            
+            <input type="text" required placeholder="Last Name"><br>
+            <br>
+            
+            <input type="text" required placeholder="Email Address"><br>
+            <br>
+            
+            <input type="text" required placeholder="Reason For Contacting"><br>
+            <br>
+    
+            <input type="submit" id="submitForm">
+        </form>
+    
+    </div>
+
+    <script>
+        $("#submitForm").click(function() {
+           alert("The Form has been Submitted.");
+        });
+     </script>
+
+</body>
+
+</html>
